@@ -1,0 +1,135 @@
+body {
+  background-color: rgb(196, 192, 192);
+  border: 2px solid black;
+}
+#header-nav {
+  background-color: rgb(196, 192, 192);
+  height: 80px;
+  border-radius: 0;
+  border: 1px solid black;
+}
+
+.container {
+  margin-left: 0px;
+  padding: 5px;
+  margin-bottom: 0px;
+}
+
+.navbar-brand {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.navbar-brand h1 {
+  font-family: "Lora", serif;
+  color: black;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px black;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+.navbar-brand a:hover,
+.navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 0px;
+  text-align: center;
+  width: 100%;
+}
+#nav-list a {
+  color: black;
+}
+#nav-list a:hover {
+  background: #e7e7e7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.navbar-toggle {
+  position: relative;
+  float: right;
+  padding: 9px 10px;
+  margin-left: 200px;
+  margin-top: 10px;
+  background-color: transparent;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+.navbar-toggle:focus {
+  outline: 0;
+}
+
+.navbar-toggle .icon-bar {
+  display: block;
+  width: 22px;
+  height: 2px;
+  border-radius: 1px;
+}
+
+.navbar-toggle .icon-bar + .icon-bar {
+  margin-top: 5px;
+}
+
+@media (min-width: 768px) {
+  .navbar-toggle {
+    display: none;
+  }
+}
+
+.navbar-header button.navbar-toggle,
+.navbar-header .icon-bar {
+  border: 1px solid black;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: 8px;
+}
+
+.menu h2 {
+  text-align: center;
+  text-shadow: 1px 1px 1px black;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding-top: 125px;
+  background-color: ivory;
+  height: 180px;
+}
+
+#menu-tile {
+  height: 260px;
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 14px;
+  margin-right: 10px;
+  position: relative;
+  border: 2px solid black;
+  overflow: hidden;
+  color: black;
+}
+
+#menu-tile:hover,
+#specials-tile:hover {
+  box-shadow: 0 1px 5px 1px #cccc;
+}
+#menu-tile span {
+  font-weight: bold;
+  text-align: center;
+  width: 100%;
+  position: absolute;
+}
+
+p {
+  padding: 10px;
+  margin-top: 15px;
+}
+
+.row {
+  width: 100%;
+}
